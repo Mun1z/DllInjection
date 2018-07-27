@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\framework">
+      <UniqueIdentifier>{0c10dda3-737b-4a13-9d40-789caba03083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework">
+      <UniqueIdentifier>{92ad7156-c994-4dc0-91a5-ff828445f8c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\core">
+      <UniqueIdentifier>{74382afd-e3c0-4bec-9e8f-63d494aa07f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\graphics">
+      <UniqueIdentifier>{554f9135-6c41-4629-9354-30361b13d1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\input">
+      <UniqueIdentifier>{86ac28c3-24c1-417a-8044-37e4b023c7d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\luaengine">
+      <UniqueIdentifier>{6bd88ea6-dec2-4072-859c-9572d58ccd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\otml">
+      <UniqueIdentifier>{c72201d9-b0a5-4638-aa0b-eae9b9c5d453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\platform">
+      <UniqueIdentifier>{d7ded96b-05f9-4ede-a40c-79c26dae9934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\stdext">
+      <UniqueIdentifier>{14aeafbf-554f-408c-b30f-3e4d7b58490a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\stdext">
+      <UniqueIdentifier>{8c5136ca-f88c-478d-9f8a-ff95ce829a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\ui">
+      <UniqueIdentifier>{3bd5ab5a-2b08-4914-b2f4-36b7e1f9a04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\ui">
+      <UniqueIdentifier>{ff7df2a6-cb97-4190-aeef-fbe0d5305c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\util">
+      <UniqueIdentifier>{30f06d9a-eba0-411a-bfc8-e6ffd3376f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\util">
+      <UniqueIdentifier>{cd8ede59-35e4-406a-8cfa-408763804f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\core">
+      <UniqueIdentifier>{0643380d-7426-41e3-8e3b-84fb12490777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\graphics">
+      <UniqueIdentifier>{7800cd5f-0f0b-43a1-8a8e-391b91b00a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\input">
+      <UniqueIdentifier>{b89801a1-6c50-40e6-a02e-f949721c7509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\luaengine">
+      <UniqueIdentifier>{3c05a89a-b996-4781-b7c7-8d89c4eebe7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\platform">
+      <UniqueIdentifier>{3012bca8-2dbc-4efc-8ae2-eed62a8100d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\otml">
+      <UniqueIdentifier>{0b09f587-bf1f-4659-b196-e4736749e645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\framework\graphics\ogl">
+      <UniqueIdentifier>{224bdd2c-baee-4b9e-9429-9bf16e7c79e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework\graphics\ogl">
+      <UniqueIdentifier>{159f01aa-b223-4c27-b31a-7110cbaa7aa6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\timer.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\adaptativeframecounter.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\application.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\asyncdispatcher.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\binarytree.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\clock.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\configmanager.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\consoleapplication.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\event.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\eventdispatcher.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\filestream.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\graphicalapplication.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\logger.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\module.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\modulemanager.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\resourcemanager.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\core\scheduledevent.cpp">
+      <Filter>Source Files\framework\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\texturemanager.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\animatedtexture.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\apngloader.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\bitmapfont.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\cachedtext.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\coordsbuffer.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\fontmanager.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\framebuffer.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\framebuffermanager.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\graphics.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\hardwarebuffer.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\image.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\painter.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\paintershaderprogram.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\particle.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\particleaffector.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\particleeffect.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\particleemitter.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\particlemanager.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\particlesystem.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\particletype.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\shader.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\shaderprogram.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\texture.cpp">
+      <Filter>Source Files\framework\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\ogl\painterogl2.cpp">
+      <Filter>Source Files\framework\graphics\ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\ogl\painterogl.cpp">
+      <Filter>Source Files\framework\graphics\ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\graphics\ogl\painterogl1.cpp">
+      <Filter>Source Files\framework\graphics\ogl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\input\mouse.cpp">
+      <Filter>Source Files\framework\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\luaengine\luavaluecasts.cpp">
+      <Filter>Source Files\framework\luaengine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\luaengine\lbitlib.cpp">
+      <Filter>Source Files\framework\luaengine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\luaengine\luaexception.cpp">
+      <Filter>Source Files\framework\luaengine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\luaengine\luainterface.cpp">
+      <Filter>Source Files\framework\luaengine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\luaengine\luaobject.cpp">
+      <Filter>Source Files\framework\luaengine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\otml\otmlparser.cpp">
+      <Filter>Source Files\framework\otml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\otml\otmldocument.cpp">
+      <Filter>Source Files\framework\otml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\otml\otmlemitter.cpp">
+      <Filter>Source Files\framework\otml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\otml\otmlexception.cpp">
+      <Filter>Source Files\framework\otml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\otml\otmlnode.cpp">
+      <Filter>Source Files\framework\otml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\platform\win32window.cpp">
+      <Filter>Source Files\framework\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\platform\platform.cpp">
+      <Filter>Source Files\framework\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\platform\platformwindow.cpp">
+      <Filter>Source Files\framework\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\platform\win32crashhandler.cpp">
+      <Filter>Source Files\framework\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\platform\win32platform.cpp">
+      <Filter>Source Files\framework\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\stdext\time.cpp">
+      <Filter>Source Files\framework\stdext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\stdext\demangle.cpp">
+      <Filter>Source Files\framework\stdext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\stdext\math.cpp">
+      <Filter>Source Files\framework\stdext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\stdext\net.cpp">
+      <Filter>Source Files\framework\stdext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\stdext\string.cpp">
+      <Filter>Source Files\framework\stdext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uiwidgettext.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uianchorlayout.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uiboxlayout.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uigridlayout.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uihorizontallayout.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uilayout.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uimanager.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uiparticles.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uitextedit.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uitranslator.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uiverticallayout.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uiwidget.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uiwidgetbasestyle.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\ui\uiwidgetimage.cpp">
+      <Filter>Source Files\framework\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\util\crypt.cpp">
+      <Filter>Source Files\framework\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\util\color.cpp">
+      <Filter>Source Files\framework\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\timer.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\adaptativeframecounter.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\application.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\asyncdispatcher.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\binarytree.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\clock.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\configmanager.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\consoleapplication.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\declarations.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\event.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\eventdispatcher.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\filestream.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\graphicalapplication.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\inputevent.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\logger.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\module.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\modulemanager.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\resourcemanager.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\core\scheduledevent.h">
+      <Filter>Header Files\framework\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\vertexarray.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\animatedtexture.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\apngloader.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\bitmapfont.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\cachedtext.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\coordsbuffer.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\declarations.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\fontmanager.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\framebuffer.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\framebuffermanager.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\glutil.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\graphics.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\hardwarebuffer.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\image.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\painter.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\paintershaderprogram.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\particle.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\particleaffector.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\particleeffect.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\particleemitter.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\particlemanager.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\particlesystem.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\particletype.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\shader.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\shaderprogram.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\texture.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\texturemanager.h">
+      <Filter>Header Files\framework\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\ogl\painterogl2_shadersources.h">
+      <Filter>Header Files\framework\graphics\ogl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\ogl\painterogl.h">
+      <Filter>Header Files\framework\graphics\ogl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\ogl\painterogl1.h">
+      <Filter>Header Files\framework\graphics\ogl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\graphics\ogl\painterogl2.h">
+      <Filter>Header Files\framework\graphics\ogl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\input\mouse.h">
+      <Filter>Header Files\framework\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\luaengine\luavaluecasts.h">
+      <Filter>Header Files\framework\luaengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\luaengine\crashhandler.h">
+      <Filter>Header Files\framework\luaengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\luaengine\declarations.h">
+      <Filter>Header Files\framework\luaengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\luaengine\lbitlib.h">
+      <Filter>Header Files\framework\luaengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\luaengine\luabinder.h">
+      <Filter>Header Files\framework\luaengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\luaengine\luaexception.h">
+      <Filter>Header Files\framework\luaengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\luaengine\luainterface.h">
+      <Filter>Header Files\framework\luaengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\luaengine\luaobject.h">
+      <Filter>Header Files\framework\luaengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\otml\otmlparser.h">
+      <Filter>Header Files\framework\otml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\otml\declarations.h">
+      <Filter>Header Files\framework\otml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\otml\otml.h">
+      <Filter>Header Files\framework\otml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\otml\otmldocument.h">
+      <Filter>Header Files\framework\otml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\otml\otmlemitter.h">
+      <Filter>Header Files\framework\otml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\otml\otmlexception.h">
+      <Filter>Header Files\framework\otml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\otml\otmlnode.h">
+      <Filter>Header Files\framework\otml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\platform\win32window.h">
+      <Filter>Header Files\framework\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\platform\crashhandler.h">
+      <Filter>Header Files\framework\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\platform\platform.h">
+      <Filter>Header Files\framework\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\platform\platformwindow.h">
+      <Filter>Header Files\framework\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\types.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\any.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\boolean.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\cast.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\compiler.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\demangle.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\dumper.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\dynamic_storage.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\exception.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\format.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\math.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\net.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\packed_any.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\packed_storage.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\packed_vector.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\shared_object.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\shared_ptr.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\stdext.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\string.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\thread.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\time.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\stdext\traits.h">
+      <Filter>Header Files\framework\stdext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\declarations.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\ui.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\uianchorlayout.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\uiboxlayout.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\uigridlayout.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\uihorizontallayout.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\uilayout.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\uimanager.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\uiparticles.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\uitextedit.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\uitranslator.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\uiverticallayout.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\ui\uiwidget.h">
+      <Filter>Header Files\framework\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\util\size.h">
+      <Filter>Header Files\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\util\color.h">
+      <Filter>Header Files\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\util\crypt.h">
+      <Filter>Header Files\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\util\databuffer.h">
+      <Filter>Header Files\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\util\matrix.h">
+      <Filter>Header Files\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\util\point.h">
+      <Filter>Header Files\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\util\rect.h">
+      <Filter>Header Files\framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\global.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\pch.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\const.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

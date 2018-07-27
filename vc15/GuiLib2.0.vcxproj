@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{FAFF1F9F-AB43-431C-935A-4E17B5BF35B9}</ProjectGuid>
+    <RootNamespace>GuiLib20</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ReferencePath>$(VC_ReferencesPath_x64);</ReferencePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\;</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ReferencePath>$(VC_ReferencesPath_x86);</ReferencePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\;C:\Git\otclient-sdk\boost_1_63_0;C:\Git\otclient-sdk\LuaJIT-2.1.0\include;C:\Git\otclient-sdk\physfs-2.0.3.1\include;C:\Git\otclient-sdk\glew-2.0.0\include</IncludePath>
+    <LibraryWPath>C:\Git\otclient-sdk\boost_1_63_0\lib32-msvc-14.0;$(LibraryWPath);C:\Git\otclient-sdk\LuaJIT-2.1.0\lib;C:\Git\otclient-sdk\physfs-2.0.3.1\lib;C:\Git\otclient-sdk\glew-2.0.0\lib</LibraryWPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\framework\core\adaptativeframecounter.cpp" />
+    <ClCompile Include="..\framework\core\application.cpp" />
+    <ClCompile Include="..\framework\core\asyncdispatcher.cpp" />
+    <ClCompile Include="..\framework\core\binarytree.cpp" />
+    <ClCompile Include="..\framework\core\clock.cpp" />
+    <ClCompile Include="..\framework\core\configmanager.cpp" />
+    <ClCompile Include="..\framework\core\consoleapplication.cpp" />
+    <ClCompile Include="..\framework\core\event.cpp" />
+    <ClCompile Include="..\framework\core\eventdispatcher.cpp" />
+    <ClCompile Include="..\framework\core\filestream.cpp" />
+    <ClCompile Include="..\framework\core\graphicalapplication.cpp" />
+    <ClCompile Include="..\framework\core\logger.cpp" />
+    <ClCompile Include="..\framework\core\module.cpp" />
+    <ClCompile Include="..\framework\core\modulemanager.cpp" />
+    <ClCompile Include="..\framework\core\resourcemanager.cpp" />
+    <ClCompile Include="..\framework\core\scheduledevent.cpp" />
+    <ClCompile Include="..\framework\core\timer.cpp" />
+    <ClCompile Include="..\framework\graphics\animatedtexture.cpp" />
+    <ClCompile Include="..\framework\graphics\apngloader.cpp" />
+    <ClCompile Include="..\framework\graphics\bitmapfont.cpp" />
+    <ClCompile Include="..\framework\graphics\cachedtext.cpp" />
+    <ClCompile Include="..\framework\graphics\coordsbuffer.cpp" />
+    <ClCompile Include="..\framework\graphics\fontmanager.cpp" />
+    <ClCompile Include="..\framework\graphics\framebuffer.cpp" />
+    <ClCompile Include="..\framework\graphics\framebuffermanager.cpp" />
+    <ClCompile Include="..\framework\graphics\graphics.cpp" />
+    <ClCompile Include="..\framework\graphics\hardwarebuffer.cpp" />
+    <ClCompile Include="..\framework\graphics\image.cpp" />
+    <ClCompile Include="..\framework\graphics\ogl\painterogl.cpp" />
+    <ClCompile Include="..\framework\graphics\ogl\painterogl1.cpp" />
+    <ClCompile Include="..\framework\graphics\ogl\painterogl2.cpp" />
+    <ClCompile Include="..\framework\graphics\painter.cpp" />
+    <ClCompile Include="..\framework\graphics\paintershaderprogram.cpp" />
+    <ClCompile Include="..\framework\graphics\particle.cpp" />
+    <ClCompile Include="..\framework\graphics\particleaffector.cpp" />
+    <ClCompile Include="..\framework\graphics\particleeffect.cpp" />
+    <ClCompile Include="..\framework\graphics\particleemitter.cpp" />
+    <ClCompile Include="..\framework\graphics\particlemanager.cpp" />
+    <ClCompile Include="..\framework\graphics\particlesystem.cpp" />
+    <ClCompile Include="..\framework\graphics\particletype.cpp" />
+    <ClCompile Include="..\framework\graphics\shader.cpp" />
+    <ClCompile Include="..\framework\graphics\shaderprogram.cpp" />
+    <ClCompile Include="..\framework\graphics\texture.cpp" />
+    <ClCompile Include="..\framework\graphics\texturemanager.cpp" />
+    <ClCompile Include="..\framework\input\mouse.cpp" />
+    <ClCompile Include="..\framework\luaengine\lbitlib.cpp" />
+    <ClCompile Include="..\framework\luaengine\luaexception.cpp" />
+    <ClCompile Include="..\framework\luaengine\luainterface.cpp" />
+    <ClCompile Include="..\framework\luaengine\luaobject.cpp" />
+    <ClCompile Include="..\framework\luaengine\luavaluecasts.cpp" />
+    <ClCompile Include="..\framework\otml\otmldocument.cpp" />
+    <ClCompile Include="..\framework\otml\otmlemitter.cpp" />
+    <ClCompile Include="..\framework\otml\otmlexception.cpp" />
+    <ClCompile Include="..\framework\otml\otmlnode.cpp" />
+    <ClCompile Include="..\framework\otml\otmlparser.cpp" />
+    <ClCompile Include="..\framework\platform\platform.cpp" />
+    <ClCompile Include="..\framework\platform\platformwindow.cpp" />
+    <ClCompile Include="..\framework\platform\win32crashhandler.cpp" />
+    <ClCompile Include="..\framework\platform\win32platform.cpp" />
+    <ClCompile Include="..\framework\platform\win32window.cpp" />
+    <ClCompile Include="..\framework\stdext\demangle.cpp" />
+    <ClCompile Include="..\framework\stdext\math.cpp" />
+    <ClCompile Include="..\framework\stdext\net.cpp" />
+    <ClCompile Include="..\framework\stdext\string.cpp" />
+    <ClCompile Include="..\framework\stdext\time.cpp" />
+    <ClCompile Include="..\framework\ui\uianchorlayout.cpp" />
+    <ClCompile Include="..\framework\ui\uiboxlayout.cpp" />
+    <ClCompile Include="..\framework\ui\uigridlayout.cpp" />
+    <ClCompile Include="..\framework\ui\uihorizontallayout.cpp" />
+    <ClCompile Include="..\framework\ui\uilayout.cpp" />
+    <ClCompile Include="..\framework\ui\uimanager.cpp" />
+    <ClCompile Include="..\framework\ui\uiparticles.cpp" />
+    <ClCompile Include="..\framework\ui\uitextedit.cpp" />
+    <ClCompile Include="..\framework\ui\uitranslator.cpp" />
+    <ClCompile Include="..\framework\ui\uiverticallayout.cpp" />
+    <ClCompile Include="..\framework\ui\uiwidget.cpp" />
+    <ClCompile Include="..\framework\ui\uiwidgetbasestyle.cpp" />
+    <ClCompile Include="..\framework\ui\uiwidgetimage.cpp" />
+    <ClCompile Include="..\framework\ui\uiwidgettext.cpp" />
+    <ClCompile Include="..\framework\util\color.cpp" />
+    <ClCompile Include="..\framework\util\crypt.cpp" />
+    <ClCompile Include="..\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\framework\const.h" />
+    <ClInclude Include="..\framework\core\adaptativeframecounter.h" />
+    <ClInclude Include="..\framework\core\application.h" />
+    <ClInclude Include="..\framework\core\asyncdispatcher.h" />
+    <ClInclude Include="..\framework\core\binarytree.h" />
+    <ClInclude Include="..\framework\core\clock.h" />
+    <ClInclude Include="..\framework\core\configmanager.h" />
+    <ClInclude Include="..\framework\core\consoleapplication.h" />
+    <ClInclude Include="..\framework\core\declarations.h" />
+    <ClInclude Include="..\framework\core\event.h" />
+    <ClInclude Include="..\framework\core\eventdispatcher.h" />
+    <ClInclude Include="..\framework\core\filestream.h" />
+    <ClInclude Include="..\framework\core\graphicalapplication.h" />
+    <ClInclude Include="..\framework\core\inputevent.h" />
+    <ClInclude Include="..\framework\core\logger.h" />
+    <ClInclude Include="..\framework\core\module.h" />
+    <ClInclude Include="..\framework\core\modulemanager.h" />
+    <ClInclude Include="..\framework\core\resourcemanager.h" />
+    <ClInclude Include="..\framework\core\scheduledevent.h" />
+    <ClInclude Include="..\framework\core\timer.h" />
+    <ClInclude Include="..\framework\global.h" />
+    <ClInclude Include="..\framework\graphics\animatedtexture.h" />
+    <ClInclude Include="..\framework\graphics\apngloader.h" />
+    <ClInclude Include="..\framework\graphics\bitmapfont.h" />
+    <ClInclude Include="..\framework\graphics\cachedtext.h" />
+    <ClInclude Include="..\framework\graphics\coordsbuffer.h" />
+    <ClInclude Include="..\framework\graphics\declarations.h" />
+    <ClInclude Include="..\framework\graphics\fontmanager.h" />
+    <ClInclude Include="..\framework\graphics\framebuffer.h" />
+    <ClInclude Include="..\framework\graphics\framebuffermanager.h" />
+    <ClInclude Include="..\framework\graphics\glutil.h" />
+    <ClInclude Include="..\framework\graphics\graphics.h" />
+    <ClInclude Include="..\framework\graphics\hardwarebuffer.h" />
+    <ClInclude Include="..\framework\graphics\image.h" />
+    <ClInclude Include="..\framework\graphics\ogl\painterogl.h" />
+    <ClInclude Include="..\framework\graphics\ogl\painterogl1.h" />
+    <ClInclude Include="..\framework\graphics\ogl\painterogl2.h" />
+    <ClInclude Include="..\framework\graphics\ogl\painterogl2_shadersources.h" />
+    <ClInclude Include="..\framework\graphics\painter.h" />
+    <ClInclude Include="..\framework\graphics\paintershaderprogram.h" />
+    <ClInclude Include="..\framework\graphics\particle.h" />
+    <ClInclude Include="..\framework\graphics\particleaffector.h" />
+    <ClInclude Include="..\framework\graphics\particleeffect.h" />
+    <ClInclude Include="..\framework\graphics\particleemitter.h" />
+    <ClInclude Include="..\framework\graphics\particlemanager.h" />
+    <ClInclude Include="..\framework\graphics\particlesystem.h" />
+    <ClInclude Include="..\framework\graphics\particletype.h" />
+    <ClInclude Include="..\framework\graphics\shader.h" />
+    <ClInclude Include="..\framework\graphics\shaderprogram.h" />
+    <ClInclude Include="..\framework\graphics\texture.h" />
+    <ClInclude Include="..\framework\graphics\texturemanager.h" />
+    <ClInclude Include="..\framework\graphics\vertexarray.h" />
+    <ClInclude Include="..\framework\input\mouse.h" />
+    <ClInclude Include="..\framework\luaengine\crashhandler.h" />
+    <ClInclude Include="..\framework\luaengine\declarations.h" />
+    <ClInclude Include="..\framework\luaengine\lbitlib.h" />
+    <ClInclude Include="..\framework\luaengine\luabinder.h" />
+    <ClInclude Include="..\framework\luaengine\luaexception.h" />
+    <ClInclude Include="..\framework\luaengine\luainterface.h" />
+    <ClInclude Include="..\framework\luaengine\luaobject.h" />
+    <ClInclude Include="..\framework\luaengine\luavaluecasts.h" />
+    <ClInclude Include="..\framework\otml\declarations.h" />
+    <ClInclude Include="..\framework\otml\otml.h" />
+    <ClInclude Include="..\framework\otml\otmldocument.h" />
+    <ClInclude Include="..\framework\otml\otmlemitter.h" />
+    <ClInclude Include="..\framework\otml\otmlexception.h" />
+    <ClInclude Include="..\framework\otml\otmlnode.h" />
+    <ClInclude Include="..\framework\otml\otmlparser.h" />
+    <ClInclude Include="..\framework\pch.h" />
+    <ClInclude Include="..\framework\platform\crashhandler.h" />
+    <ClInclude Include="..\framework\platform\platform.h" />
+    <ClInclude Include="..\framework\platform\platformwindow.h" />
+    <ClInclude Include="..\framework\platform\win32window.h" />
+    <ClInclude Include="..\framework\stdext\any.h" />
+    <ClInclude Include="..\framework\stdext\boolean.h" />
+    <ClInclude Include="..\framework\stdext\cast.h" />
+    <ClInclude Include="..\framework\stdext\compiler.h" />
+    <ClInclude Include="..\framework\stdext\demangle.h" />
+    <ClInclude Include="..\framework\stdext\dumper.h" />
+    <ClInclude Include="..\framework\stdext\dynamic_storage.h" />
+    <ClInclude Include="..\framework\stdext\exception.h" />
+    <ClInclude Include="..\framework\stdext\format.h" />
+    <ClInclude Include="..\framework\stdext\math.h" />
+    <ClInclude Include="..\framework\stdext\net.h" />
+    <ClInclude Include="..\framework\stdext\packed_any.h" />
+    <ClInclude Include="..\framework\stdext\packed_storage.h" />
+    <ClInclude Include="..\framework\stdext\packed_vector.h" />
+    <ClInclude Include="..\framework\stdext\shared_object.h" />
+    <ClInclude Include="..\framework\stdext\shared_ptr.h" />
+    <ClInclude Include="..\framework\stdext\stdext.h" />
+    <ClInclude Include="..\framework\stdext\string.h" />
+    <ClInclude Include="..\framework\stdext\thread.h" />
+    <ClInclude Include="..\framework\stdext\time.h" />
+    <ClInclude Include="..\framework\stdext\traits.h" />
+    <ClInclude Include="..\framework\stdext\types.h" />
+    <ClInclude Include="..\framework\ui\declarations.h" />
+    <ClInclude Include="..\framework\ui\ui.h" />
+    <ClInclude Include="..\framework\ui\uianchorlayout.h" />
+    <ClInclude Include="..\framework\ui\uiboxlayout.h" />
+    <ClInclude Include="..\framework\ui\uigridlayout.h" />
+    <ClInclude Include="..\framework\ui\uihorizontallayout.h" />
+    <ClInclude Include="..\framework\ui\uilayout.h" />
+    <ClInclude Include="..\framework\ui\uimanager.h" />
+    <ClInclude Include="..\framework\ui\uiparticles.h" />
+    <ClInclude Include="..\framework\ui\uitextedit.h" />
+    <ClInclude Include="..\framework\ui\uitranslator.h" />
+    <ClInclude Include="..\framework\ui\uiverticallayout.h" />
+    <ClInclude Include="..\framework\ui\uiwidget.h" />
+    <ClInclude Include="..\framework\util\color.h" />
+    <ClInclude Include="..\framework\util\crypt.h" />
+    <ClInclude Include="..\framework\util\databuffer.h" />
+    <ClInclude Include="..\framework\util\matrix.h" />
+    <ClInclude Include="..\framework\util\point.h" />
+    <ClInclude Include="..\framework\util\rect.h" />
+    <ClInclude Include="..\framework\util\size.h" />
+    <ClInclude Include="..\main.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
